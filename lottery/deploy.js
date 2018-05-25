@@ -4,8 +4,8 @@ const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
     'guard clap subject rubber world clog napkin creek spend wild sort force',
-    'https://ropsten.infura.io/zRdfIa0m7HjGecU5VBSi'
-    // 'https://rinkeby.infura.io/zRdfIa0m7HjGecU5VBSi'
+    // 'https://ropsten.infura.io/zRdfIa0m7HjGecU5VBSi'
+    'https://rinkeby.infura.io/zRdfIa0m7HjGecU5VBSi'
 );
 
 const web3 = new Web3(provider);
